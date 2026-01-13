@@ -6,9 +6,9 @@ screenWidth, screenHeight = pyautogui.size() # Получаем размер э�
 
 while True:
     
-    if os.path.exists("G:/minecraft mods/modee/tplog.txt"):
+    if os.path.exists("tplog.txt"):
         pyautogui.press('f2')
-        os.remove("G:/minecraft mods/modee/tplog.txt")
+        os.remove("tplog.txt")
         print("200")
     time.sleep(3)
 
