@@ -13,5 +13,11 @@
 2. **Fabric Loader** — (https://fabricmc.net/use/)
 3. **Python 3.8+** — (https://www.python.org/downloads/)
 4. Библиотеки Python:
-   pyautogui 
+   pyautogui
+## Как запустить?
+
+1. Добавить modid.jar в папку mods в директории Майнкрафта
+2. Запустить screen.py
+3. Зайти в Майнкрафт, создать новый мир и зайти в него
+
 
