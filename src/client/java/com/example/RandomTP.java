@@ -75,7 +75,7 @@ public class RandomTP implements ModInitializer {
             if (attempts >= MAX_ATTEMPTS){
                 player.teleport(serverWorld, newX, y, newZ, yaw, pitch);
                 try {
-                    FileWriter writer = new FileWriter("G:/minecraft mods/modee/tplog.txt", true);
+                    FileWriter writer = new FileWriter("tplog.txt", true);
                     writer.write("teleport");
                     writer.close();
                 }
@@ -91,7 +91,7 @@ public class RandomTP implements ModInitializer {
         else {
             player.teleport(serverWorld, newX, y, newZ, yaw, pitch);
             try {
-                FileWriter writer = new FileWriter("G:/minecraft mods/modee/tplog.txt", true);
+                FileWriter writer = new FileWriter("tplog.txt", true);
                 writer.write("teleport");
                 writer.close();
             }
