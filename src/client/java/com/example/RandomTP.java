@@ -70,6 +70,7 @@ public class RandomTP implements ModInitializer {
 
                 feetPos = BlockPos.ofFloored(newX, y - 1, newZ);
                 block = serverWorld.getBlockState(feetPos).getBlock();
+                attempts++;
             }
 
             if (attempts >= MAX_ATTEMPTS){
