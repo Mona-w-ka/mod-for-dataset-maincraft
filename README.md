@@ -17,8 +17,10 @@
 ## Как запустить?
 
 1. Добавить modid.jar в папку mods в директории Майнкрафта
-2. Запустить screen.py
-3. Запустить в Майнкрафт, создать новый мир и зайти в него
+2. Скачать и добавить в папку mods Fabric API - (https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/all)
+3. Запустить screen.py
+4. Запустить в Майнкрафт
+
 
 
 
